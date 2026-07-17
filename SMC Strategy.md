@@ -1,5 +1,7 @@
 # SMC concept တွေအားလုံးကို Strategy ဘယ်လို တည်ဆောက်မလဲ
 
+<img width="1472" height="1180" alt="image" src="https://github.com/user-attachments/assets/530fc377-ddf4-4e35-86c9-44c153306c54" />
+
 
 SMC concept ၈ ခုလုံးကို တစ်ခုတည်းသော strategy pipeline အဖြစ် ဘယ်လိုတွဲပြီး တည်ဆောက်ရမလဲ အသေးစိတ်ရှင်းပြပါမယ်။
 
