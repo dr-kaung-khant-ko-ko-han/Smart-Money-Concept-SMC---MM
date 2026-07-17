@@ -1,0 +1,40 @@
+# SMC concept တွေအားလုံးကို Strategy ဘယ်လို တည်ဆောက်မလဲ
+
+
+SMC concept ၈ ခုလုံးကို တစ်ခုတည်းသော strategy pipeline အဖြစ် ဘယ်လိုတွဲပြီး တည်ဆောက်ရမလဲ အသေးစိတ်ရှင်းပြပါမယ်။
+
+## အဆင့် ၁ - HTF Market Structure နဲ့ Bias ဆုံးဖြတ်ခြင်း
+
+Daily/4H timeframe (HTF) ကနေ overall structure ကို အရင်ကြည့်ပါ။
+- HH + HL ဆက်တိုက်ဖြစ်နေရင် → **Bullish bias** (buy setup ကိုသာ ရှာမယ်)
+- LH + LL ဆက်တိုက်ဖြစ်နေရင် → **Bearish bias** (sell setup ကိုသာ ရှာမယ်)
+
+ဒီအဆင့်က filter တစ်ခုပါ - HTF trend ဆန့်ကျင်ဘက် setup တွေကို လုံးဝ skip လုပ်တာက win rate ကို သိသိသာသာ တိုးစေပါတယ်။
+
+## အဆင့် ၂ - Liquidity Zone မှတ်သားခြင်း
+
+HTF bias ရလာပြီးရင် လက်ရှိ price ကနေ ခေါက်ချင်ဖွယ် (untapped) BSL/SSL ဘယ်နားရှိလဲ ရှာပါ - old swing high/low, equal highs (EQH), equal lows (EQL) တွေကို mark ထားပါ။ ဒါက **"price ဘယ်ဘက်ကို ဆွဲသွားနိုင်လဲ"** ဆိုတဲ့ target ကို ကြိုသိစေပါတယ်။
+
+## အဆင့် ၃ - Liquidity Sweep + CHoCH စောင့်ကြည့်ခြင်း
+
+Bullish bias ဆိုရင် price က SSL တစ်ခုခုကို sweep (stop hunt) လုပ်တာကို စောင့်ပါ။ Sweep ဖြစ်ပြီးတာနဲ့ ချက်ချင်း မဝင်ပါနဲ့ - Lower timeframe (15M/5M) ကို ဆင်းပြီး **bullish CHoCH** ဖြစ်တာကို အရင် confirm လုပ်ပါ။ ဒါက "smart money ဟုတ်တကယ် ဝင်နေပြီ" ဆိုတဲ့ confirmation ပါ။
+
+## အဆင့် ၄ - OB/FVG Entry + Confluence စစ်ဆေးခြင်း
+
+CHoCH ဖြစ်ရာမှာ ဖြစ်ပေါ်လာတဲ့ Order Block (သို့) FVG ကို ရှာပါ။ ဝင်ခင် confluence ၂ ခုကို check ပါ -
+- ဒီ OB/FVG က **Discount zone** ထဲမှာ ရှိလား (bullish setup အတွက်)
+- ဒီ level က **inducement** (minor trap swing) လား၊ (သို့) real structural point လား
+
+Inducement ဖြစ်နေရင် ခဏစောင့်ပြီး real sweep/BOS ကို ထပ်စောင့်ပါ။ Confluence အားလုံးက အံ့ဝင်မှသာ entry ဝင်ပါ - price က OB zone (သို့) FVG ကို ပြန်ရောက်လာချိန် (retest/mitigation) မှာ ဝင်ပါ။
+
+## အဆင့် ၅ - Risk Management
+
+- **Stop loss**: OB ရဲ့ အခြားဘက် edge (သို့) liquidity sweep ရဲ့ low/high အောက်/အပေါ်
+- **Take profit**: ဆန့်ကျင်ဘက် liquidity target (opposing BSL/SSL) (သို့) minimum 1:2 risk-reward
+- **Position size**: Account ရဲ့ 1-2% ထက်မပိုအောင် risk တွက်ချက်
+
+## Backtesting - မဖြစ်မနေ လိုအပ်ချက်
+
+ဒီ pipeline ၅ ဆင့်စလုံးကို **objective rule** အဖြစ် ရေးချထားပြီး (subjective မဟုတ်ဘဲ) historical data ပေါ်မှာ backtest လုပ်ကြည့်ဖို့ အရေးကြီးပါတယ်။ Win rate၊ average risk-reward၊ expectancy ကို track လုပ်ပြီးမှ criteria (ဥပမာ timeframe combination, entry confirmation strictness) ကို ပြင်ဆင်သင့်ပါတယ်။
+
+သတိပြုရန် - ဒီ pipeline က SMC trader အများစု သုံးလေ့ရှိတဲ့ **general framework** ပါ၊ profit အာမခံချက် မဟုတ်ပါဘူး။ Concept တစ်ခုချင်းစီရဲ့ subjectivity (အထူးသဖြင့် inducement identification) ကြောင့် trader တစ်ဦးနဲ့တစ်ဦး result ကွာနိုင်ပါတယ်။ ဒါက trading strategy framework ရှင်းပြချက်သာဖြစ်ပြီး investment အကြံပေးချက် မဟုတ်ကြောင်း သတိပြုပါ။
